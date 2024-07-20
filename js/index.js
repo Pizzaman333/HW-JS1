@@ -21,3 +21,8 @@ let myName = prompt("Please enter your username");
 console.log("Thanks for using your username", myName);
 
 let myChoice = confirm("Please confirm your choice");
+if (myChoice == true) {alert("Дякую за підтвердження!")} else {alert("Дію відмінено!")}
+
+alert("Your action is not safe!")
+let myAlert = confirm("Please confirm your choice");
+if (myAlert == true) {alert("Дякую за підтвердження!")} else {alert("Дію відмінено!")}
